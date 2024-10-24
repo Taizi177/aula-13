@@ -1,0 +1,136 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+}
+
+header {
+    background-color: #1d1b2d;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+header h1 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+#cars {
+    text-align: center;
+    padding: 40px 0;
+}
+
+#cars h2 {
+    font-size: 1.8em;
+    margin-bottom: 20px;
+}
+
+.car-list {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.car {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 250px;
+    text-align: center;
+}
+
+.car img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+.car h3 {
+    font-size: 1.2em;
+    margin: 15px 0 10px;
+}
+
+.car p {
+    font-size: 1em;
+    color: #666;
+}
+
+#rental-form {
+    background-color: white;
+    margin: 40px auto;
+    padding: 20px;
+    width: 60%;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#rental-form form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+#rental-form label {
+    font-size: 1em;
+    color: #333;
+}
+
+#rental-form input, #rental-form select, #rental-form button {
+    padding: 10px;
+    font-size: 1em;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+}
+
+#rental-form button {
+    background-color: #f0eded;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    font-size: 1.1em;
+    border-color: rgb(0, 0, 0);
+}
+
+#rental-form button:hover {
+    background-color: #00ffdd;
+}
+
+footer {
+    background-color: #1d1b2d;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 40px;
+}
+
+footer p {
+    font-size: 0.9em;
+}
+
